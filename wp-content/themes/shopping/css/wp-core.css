@@ -1,0 +1,60 @@
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {margin: 5px 20px 20px 0}
+.aligncenter,div.aligncenter {display: block;margin: 5px auto 5px auto}
+.alignright {float:right;margin: 5px 0 20px 20px}
+.alignleft {float: left;margin: 5px 20px 20px 0}
+a img.alignright {float: right;margin: 5px 0 20px 20px}
+a img.alignnone {margin: 5px 20px 20px 0}
+a img.alignleft {float: left;margin: 5px 20px 20px 0}
+a img.aligncenter {display: block;margin-left: auto;margin-right: auto}
+.wp-caption {background: #fff;border: 1px solid #f0f0f0;max-width: 96%; /* Image does not overflow the content area */padding: 5px 3px 10px;text-align: center}
+.wp-caption.alignnone {margin: 5px 20px 20px 0}
+.wp-caption.alignleft {margin: 5px 20px 20px 0}
+.wp-caption.alignright {margin: 5px 0 20px 20px}
+.wp-caption img {border: 0 none;height: auto;margin: 0;max-width: 98.5%;padding: 0;width: auto}
+.wp-caption p.wp-caption-text {font-size: 11px;line-height: 17px;margin: 0;padding: 0 4px 5px}
+/* Text meant only for screen readers. */
+.screen-reader-text {clip: rect(1px, 1px, 1px, 1px);position: absolute !important;height: 1px;width: 1px;overflow: hidden}
+.screen-reader-text:focus {background-color: #f1f1f1;border-radius: 3px;box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);clip: auto !important;color: #21759b;display: block;font-size: 14px;font-size: 0.875rem;font-weight: bold;height: auto;left: 5px;line-height: normal;padding: 15px 23px 14px;text-decoration: none;top: 5px;width: auto;z-index: 100000; /* Above WP toolbar. */}
+/* =Editor Stylesheet
+--------------------------------------------- */
+.news-content {line-height: 1.625; }
+/*.news-content a {border-bottom: 1px solid #ddd; color: #f15123; }*/
+.news-content a:hover {color: #333; }
+.news-content p {margin: 0 0 10px; padding: 0; }
+.news-content strong {font-weight: 700; }
+.news-content ol, .news-content ul {margin: 0 0 15px 40px; padding: 0; }
+.news-content ol li {list-style-type: decimal; }
+.news-content ul li {list-style-type: disc; }
+.news-content ol ol, .news-content ul ul {margin-bottom: 0; }
+.news-content blockquote, .news-content blockquote::before {color: #999; }
+.news-content blockquote {border: 2px dashed #38578F; padding: 15px; margin: 10px 0; background-color: #FFFFDF; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;}
+.news-content blockquote::before {content: "\201C"; display: block; font-size: 30px; height: 0; left: -10px; position: relative; top: -10px; }
+.news-content cite {font-style: normal; }
+/* Headings
+--------------------------------------------- */
+.news-content h1, .news-content h2, .news-content h3, .news-content h4, .news-content h5, .news-content h6 {font-weight: 700; line-height: 1.2; margin: 0 0 16px; }
+.news-content h1 {font-size: 36px; }
+.news-content h2 {font-size: 30px; }
+.news-content h3 {font-size: 24px; }
+.news-content h4 {font-size: 20px; }
+.news-content h5 {font-size: 18px; }
+.news-content h6 {font-size: 16px; }
+/* Tables
+--------------------------------------------- */
+.news-content table {border-collapse: collapse; border-spacing: 0; line-height: 2; margin-bottom: 40px; width: 100%; }
+.news-content tbody {border-bottom: 1px solid #ddd; }
+.news-content th, .news-content td {text-align: left; }
+.news-content th {font-weight: bold; text-transform: uppercase; }
+.news-content td {border-top: 1px solid #ddd; padding: 6px 0; }
+/*
+Common Classes
+---------------------------------------------------------------------------------------------------- */
+.news-content img.centered, .news-content .aligncenter {display: block; margin: 0 auto 24px; }
+.news-content img.alignnone {margin-bottom: 12px; }
+.news-content .alignleft {float: left; text-align: left; }
+.news-content .alignright {float: right; text-align: right; }
+.news-content img.alignleft, .news-content .wp-caption.alignleft {margin: 0 24px 24px 0; }
+.news-content img.alignright, .news-content .wp-caption.alignright {margin: 0 0 24px 24px; }
+.news-content .wp-caption-text {font-size: 14px; font-weight: 700; text-align: center; }

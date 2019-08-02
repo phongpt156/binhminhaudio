@@ -1,0 +1,13 @@
+<?php
+get_template_part('framework/widgets/module/widget-tab');
+get_template_part('framework/widgets/module/widget-criteria');
+get_template_part('framework/widgets/module/san-pham-khuyen-mai');
+get_template_part('framework/widgets/module/san-pham-theo-chuyen-muc');
+get_template_part('framework/widgets/module/image_widget');
+get_template_part('framework/widgets/module/facebook-widget');
+get_template_part('framework/widgets/module/doi-tac');
+get_template_part('framework/widgets/module/widget-post-footer');
+get_template_part('framework/widgets/module/widget-post-slider');
+get_template_part('framework/widgets/module/widget-post-sidebar');
+get_template_part('framework/widgets/module/widget-post-by-cate');
+get_template_part('framework/widgets/module/ew-menu');
