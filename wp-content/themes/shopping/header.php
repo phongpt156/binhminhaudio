@@ -4,6 +4,33 @@
 	<title><?php wp_title('|', true, 'right'); ?><?php bloginfo('name'); ?></title>
 	<?php wp_head();?>
 	<meta name="p:domain_verify" content="31c2f45df9944ae9a996fa04d769c601"/>
+	<style>
+		.no-action-menu-mobile {
+			background-color: #185ea8;
+			display: grid;
+			grid-gap: 5px;
+			grid-template-columns: repeat(4, 1fr);
+			padding: 5px;
+		}
+		.no-action-menu-mobile li {
+			background-image: -webkit-linear-gradient(top , #fff, #e5e5e5);
+			border-radius: 3px;
+		}
+		.no-action-menu-mobile li a {
+			color: #185ea8;
+			display: block;
+			font-size: 12px;
+			height: 42px;
+			line-height: 42px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		@media screen and (min-width: 1200px) {
+			.no-action-menu-mobile {
+				display: none;
+			}
+		}
+	</style>
 </head>
 <body <?php body_class( 'woocommerce' ); ?>>
 	<div class="wrapper">
@@ -103,6 +130,41 @@
 						    </div><!--End-container-->
 						</div>
 					</div>
+					<ul class="no-action-menu-mobile">
+						<li>
+							<a href="/danh-muc/dan-am-thanh/">DÀN ÂM THANH</a>
+						</li>
+						<li>
+							<a href="/danh-muc/micro/">Micro</a>
+						</li>
+						<li>
+							<a href="/danh-muc/cuc-day/">Cục đẩy</a>
+						</li>
+						<li>
+							<a href="/danh-muc/loa/">Loa</a>
+						</li>
+						<li>
+							<a href="/danh-muc/vang-so/">Vang số</a>
+						</li>
+						<li>
+							<a href="/danh-muc/amply/">Amply</a>
+						</li>
+						<li>
+							<a href="/danh-muc/cuc-day/">Cục đẩy</a>
+						</li>
+						<li>
+							<a href="/danh-muc/dan-karaoke/">Đầu Karaoke</a>
+						</li>
+						<li>
+							<a href="/danh-muc/micro/">Micro</a>
+						</li>
+						<li>
+							<a href="/danh-muc/ban-mixer/">BÀN MIXER</a>
+						</li>
+						<li>
+							<a href="/danh-muc/phu-kien/">Phụ kiện</a>
+						</li>
+					</ul>
 				</div>
 				<div id="off-canvas">
 					<div class="off-canvas-inner">
@@ -120,13 +182,13 @@
 				<div class="wrapper-menu hidden-md">
 					<div class="container">
 						<div class="row">
-					<!--		<div class="col-lg-3">
+							<!--		<div class="col-lg-3">
 								<a id="mega-menu-title2" class="gradient title-cate-pro" href="#" title="Danh mục sản phẩm">
 	                                <i class="fa fa-list"></i>&nbsp;DANH MỤC SẢN PHẨM&nbsp;&nbsp;<i class="fa fa-caret-square-o-down"></i>
 	                            </a>
 	                            <div class="dcjq-vertical-mega-menu mega-menu2">
 									<nav class="product-menu">
-										<?php
+									<?php
 										wp_nav_menu( array(
 					                        'theme_location' => 'cate_menu',
 					                        'container' => false,
